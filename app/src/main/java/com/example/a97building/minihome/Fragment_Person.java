@@ -46,8 +46,8 @@ public class Fragment_Person extends Fragment{
                 Fragment_Person_info infoP = new Fragment_Person_info();
                 fragmentTransaction.replace(R.id.fragment_container,infoP);
                 fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
-                fragmentTransaction.commit();
                 fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
             }
         });
 
@@ -58,8 +58,8 @@ public class Fragment_Person extends Fragment{
                 Fragmeng_Person_Phone phoneP = new Fragmeng_Person_Phone();
                 fragmentTransaction.replace(R.id.fragment_container,phoneP);
                 fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
-                fragmentTransaction.commit();
                 fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
             }
         });
 
