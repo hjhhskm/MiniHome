@@ -7,4 +7,5 @@
     <color name="transparent">#fff</color>
     <color name="head_background">#272727</color>
     <color name="menuText">#898c89</color>
+    <color name="mainBackground">#f7f7f7</color>
 </resources>

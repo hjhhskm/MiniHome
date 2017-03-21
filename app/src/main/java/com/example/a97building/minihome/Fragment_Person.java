@@ -1,11 +1,11 @@
 package com.example.a97building.minihome;
 
 import android.app.Fragment;
+import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,7 +28,8 @@ public class Fragment_Person extends Fragment{
     @Override
     public View onCreateView(LayoutInflater inflater, final ViewGroup container, Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_person,container,false);
-        final FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+        manager = getFragmentManager();
+        final FragmentTransaction fragmentTransaction = manager.beginTransaction();
 
         head = (ImageView)view.findViewById(R.id.person_myinfo_head);
         head.setOnClickListener(new View.OnClickListener() {
@@ -43,8 +44,10 @@ public class Fragment_Person extends Fragment{
             @Override
             public void onClick(View v) {
                 Fragment_Person_info infoP = new Fragment_Person_info();
-                fragmentTransaction.add(R.id.fragment_container,infoP);
+                fragmentTransaction.replace(R.id.fragment_container,infoP);
+                fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
                 fragmentTransaction.commit();
+                fragmentTransaction.addToBackStack(null);
             }
         });
 
@@ -52,15 +55,16 @@ public class Fragment_Person extends Fragment{
         phone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent();
-                startActivity(intent);
+                Fragmeng_Person_Phone phoneP = new Fragmeng_Person_Phone();
+                fragmentTransaction.replace(R.id.fragment_container,phoneP);
+                fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
+                fragmentTransaction.commit();
+                fragmentTransaction.addToBackStack(null);
             }
         });
 
 
-
         return view;
     }
-
 
 }

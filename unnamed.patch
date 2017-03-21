@@ -1,0 +1,2469 @@
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .gitignore	(date 1489639852000)
++++ .gitignore	(date 1489639852000)
+@@ -0,0 +1,9 @@
++*.iml
++.gradle
++/local.properties
++/.idea/workspace.xml
++/.idea/libraries
++.DS_Store
++/build
++/captures
++.externalNativeBuild
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/compiler.xml	(date 1489639852000)
++++ .idea/compiler.xml	(date 1489639852000)
+@@ -0,0 +1,22 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <resourceExtensions />
++    <wildcardResourcePatterns>
++      <entry name="!?*.java" />
++      <entry name="!?*.form" />
++      <entry name="!?*.class" />
++      <entry name="!?*.groovy" />
++      <entry name="!?*.scala" />
++      <entry name="!?*.flex" />
++      <entry name="!?*.kt" />
++      <entry name="!?*.clj" />
++      <entry name="!?*.aj" />
++    </wildcardResourcePatterns>
++    <annotationProcessing>
++      <profile default="true" name="Default" enabled="false">
++        <processorPath useClasspath="true" />
++      </profile>
++    </annotationProcessing>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/copyright/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/copyright/profiles_settings.xml	(date 1489639852000)
++++ .idea/copyright/profiles_settings.xml	(date 1489639852000)
+@@ -0,0 +1,3 @@
++<component name="CopyrightManager">
++  <settings default="" />
++</component>
+\ No newline at end of file
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/gradle.xml	(date 1489639852000)
++++ .idea/gradle.xml	(date 1489639852000)
+@@ -0,0 +1,19 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="GradleSettings">
++    <option name="linkedExternalProjectsSettings">
++      <GradleProjectSettings>
++        <option name="distributionType" value="LOCAL" />
++        <option name="externalProjectPath" value="$PROJECT_DIR$" />
++        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1" />
++        <option name="modules">
++          <set>
++            <option value="$PROJECT_DIR$" />
++            <option value="$PROJECT_DIR$/app" />
++          </set>
++        </option>
++        <option name="resolveModulePerSourceSet" value="false" />
++      </GradleProjectSettings>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(date 1489639852000)
++++ .idea/misc.xml	(date 1489639852000)
+@@ -0,0 +1,46 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="EntryPointsManager">
++    <entry_points version="2.0" />
++  </component>
++  <component name="NullableNotNullManager">
++    <option name="myDefaultNullable" value="android.support.annotation.Nullable" />
++    <option name="myDefaultNotNull" value="android.support.annotation.NonNull" />
++    <option name="myNullables">
++      <value>
++        <list size="4">
++          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
++          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
++          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
++          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.Nullable" />
++        </list>
++      </value>
++    </option>
++    <option name="myNotNulls">
++      <value>
++        <list size="4">
++          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
++          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
++          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
++          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.NonNull" />
++        </list>
++      </value>
++    </option>
++  </component>
++  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
++    <OptionsSetting value="true" id="Add" />
++    <OptionsSetting value="true" id="Remove" />
++    <OptionsSetting value="true" id="Checkout" />
++    <OptionsSetting value="true" id="Update" />
++    <OptionsSetting value="true" id="Status" />
++    <OptionsSetting value="true" id="Edit" />
++    <ConfirmationsSetting value="0" id="Add" />
++    <ConfirmationsSetting value="0" id="Remove" />
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/build/classes" />
++  </component>
++  <component name="ProjectType">
++    <option name="id" value="Android" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/modules.xml	(date 1489639852000)
++++ .idea/modules.xml	(date 1489639852000)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/MiniHome.iml" filepath="$PROJECT_DIR$/MiniHome.iml" />
++      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/runConfigurations.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/runConfigurations.xml	(date 1489639852000)
++++ .idea/runConfigurations.xml	(date 1489639852000)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RunConfigurationProducerService">
++    <option name="ignoredProducers">
++      <set>
++        <option value="org.jetbrains.plugins.gradle.execution.test.runner.AllInPackageGradleConfigurationProducer" />
++        <option value="org.jetbrains.plugins.gradle.execution.test.runner.TestClassGradleConfigurationProducer" />
++        <option value="org.jetbrains.plugins.gradle.execution.test.runner.TestMethodGradleConfigurationProducer" />
++      </set>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: app/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/.gitignore	(date 1489639852000)
++++ app/.gitignore	(date 1489639852000)
+@@ -0,0 +1,1 @@
++/build
+Index: app/build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build.gradle	(date 1489639852000)
++++ app/build.gradle	(date 1489639852000)
+@@ -0,0 +1,30 @@
++apply plugin: 'com.android.application'
++
++android {
++    compileSdkVersion 25
++    buildToolsVersion "25.0.2"
++    defaultConfig {
++        applicationId "com.example.a97building.minihome"
++        minSdkVersion 23
++        targetSdkVersion 25
++        versionCode 1
++        versionName "1.0"
++        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
++    }
++    buildTypes {
++        release {
++            minifyEnabled false
++            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
++        }
++    }
++}
++
++dependencies {
++    compile fileTree(dir: 'libs', include: ['*.jar'])
++    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
++        exclude group: 'com.android.support', module: 'support-annotations'
++    })
++    compile 'com.android.support:appcompat-v7:25.1.1'
++    compile 'com.android.support:recyclerview-v7:25.1.1'
++    testCompile 'junit:junit:4.12'
++}
+Index: app/proguard-rules.pro
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/proguard-rules.pro	(date 1489639852000)
++++ app/proguard-rules.pro	(date 1489639852000)
+@@ -0,0 +1,17 @@
++# Add project specific ProGuard rules here.
++# By default, the flags in this file are appended to flags specified
++# in /Users/97building/Library/Android/sdk/tools/proguard/proguard-android.txt
++# You can edit the include path and order by changing the proguardFiles
++# directive in build.gradle.
++#
++# For more details, see
++#   http://developer.android.com/guide/developing/tools/proguard.html
++
++# Add any project specific keep options here:
++
++# If your project uses WebView with JS, uncomment the following
++# and specify the fully qualified class name to the JavaScript interface
++# class:
++#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
++#   public *;
++#}
+Index: app/src/androidTest/java/com/example/a97building/minihome/ExampleInstrumentedTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/androidTest/java/com/example/a97building/minihome/ExampleInstrumentedTest.java	(date 1489639852000)
++++ app/src/androidTest/java/com/example/a97building/minihome/ExampleInstrumentedTest.java	(date 1489639852000)
+@@ -0,0 +1,26 @@
++package com.example.a97building.minihome;
++
++import android.content.Context;
++import android.support.test.InstrumentationRegistry;
++import android.support.test.runner.AndroidJUnit4;
++
++import org.junit.Test;
++import org.junit.runner.RunWith;
++
++import static org.junit.Assert.*;
++
++/**
++ * Instrumentation test, which will execute on an Android device.
++ *
++ * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
++ */
++@RunWith(AndroidJUnit4.class)
++public class ExampleInstrumentedTest {
++    @Test
++    public void useAppContext() throws Exception {
++        // Context of the app under test.
++        Context appContext = InstrumentationRegistry.getTargetContext();
++
++        assertEquals("com.example.a97building.minihome", appContext.getPackageName());
++    }
++}
+Index: app/src/main/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/AndroidManifest.xml	(date 1489639852000)
++++ app/src/main/AndroidManifest.xml	(date 1489639852000)
+@@ -0,0 +1,23 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="com.example.a97building.minihome">
++
++    <application
++        android:allowBackup="true"
++        android:icon="@mipmap/ic_launcher"
++        android:label="@string/app_name"
++        android:supportsRtl="true"
++        android:theme="@style/AppTheme.NoBar">
++        <activity android:name=".MainActivity">
++            <intent-filter>
++                <action android:name="android.intent.action.MAIN" />
++
++                <category android:name="android.intent.category.LAUNCHER" />
++            </intent-filter>
++        </activity>
++        <activity android:name=".Sign_up" />
++        <activity android:name=".forget_passwd" />
++        <activity android:name=".Fragment_begin"></activity>
++    </application>
++
++</manifest>
+\ No newline at end of file
+Index: app/src/main/java/com/example/a97building/minihome/First_fragment.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/a97building/minihome/First_fragment.java	(date 1489639852000)
++++ app/src/main/java/com/example/a97building/minihome/First_fragment.java	(date 1489639852000)
+@@ -0,0 +1,36 @@
++package com.example.a97building.minihome;
++
++import android.app.Fragment;
++import android.os.Bundle;
++import android.support.annotation.Nullable;
++import android.view.LayoutInflater;
++import android.view.View;
++import android.view.ViewGroup;
++import android.widget.TextView;
++
++/**
++ * Created by 97building on 2017/3/9.
++ */
++
++public class First_fragment extends Fragment {
++    private String context = "";
++    private TextView mTextView;
++
++    public First_fragment(){
++        context = "";
++        mTextView = null;
++    }
++
++    public void setContext(String context){
++        this.context = context;
++    }
++
++    @Nullable
++    @Override
++    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
++        View view = inflater.inflate(R.layout.first_fragment,container,false);
++        mTextView = (TextView)view.findViewById(R.id.txt_content);
++        mTextView.setText(context);
++        return view;
++    }
++}
+Index: app/src/main/java/com/example/a97building/minihome/Fragment_Group.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/a97building/minihome/Fragment_Group.java	(date 1489639852000)
++++ app/src/main/java/com/example/a97building/minihome/Fragment_Group.java	(date 1489639852000)
+@@ -0,0 +1,46 @@
++package com.example.a97building.minihome;
++
++import android.app.Fragment;
++import android.os.Bundle;
++import android.support.annotation.Nullable;
++import android.support.v7.widget.LinearLayoutManager;
++import android.support.v7.widget.RecyclerView;
++import android.view.LayoutInflater;
++import android.view.View;
++import android.view.ViewGroup;
++
++import java.util.ArrayList;
++import java.util.List;
++
++/**
++ * Created by 97building on 2017/3/10.
++ */
++
++public class Fragment_Group extends Fragment {
++
++    private List<Group> groupList = new ArrayList<>();
++
++    @Nullable
++    @Override
++    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
++        View view = inflater.inflate(R.layout.fragment_group,container,false);
++        RecyclerView recyclerView = (RecyclerView)view.findViewById(R.id.group_tiem_recyclerview);
++        LinearLayoutManager manager = new LinearLayoutManager(inflater.getContext());
++        recyclerView.setLayoutManager(manager);
++        GroupAdapter adapter = new GroupAdapter(groupList);
++        recyclerView.setAdapter(adapter);
++        initGroup();
++        return view;
++    }
++
++    private void initGroup(){
++        for(int i = 0;i < 10;i++){
++            Group litao = new Group("李涛",R.drawable.litao);
++            groupList.add(litao);
++            Group hushuang = new Group("胡双",R.drawable.hushuang);
++            groupList.add(hushuang);
++            Group hanjiahui = new Group("韩家辉",R.drawable.testhanhan);
++            groupList.add(hanjiahui);
++        }
++    }
++}
+Index: app/src/main/java/com/example/a97building/minihome/Fragment_Person.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/a97building/minihome/Fragment_Person.java	(date 1489639852000)
++++ app/src/main/java/com/example/a97building/minihome/Fragment_Person.java	(date 1489639852000)
+@@ -0,0 +1,66 @@
++package com.example.a97building.minihome;
++
++import android.app.Fragment;
++import android.app.FragmentTransaction;
++import android.content.Intent;
++import android.os.Bundle;
++import android.support.annotation.Nullable;
++import android.support.v4.app.FragmentManager;
++import android.view.LayoutInflater;
++import android.view.View;
++import android.view.ViewGroup;
++import android.widget.ImageView;
++import android.widget.TextView;
++import android.widget.Toast;
++
++/**
++ * Created by 97building on 2017/3/14.
++ */
++
++public class Fragment_Person extends Fragment{
++
++    private View view;
++    private ImageView head;
++    private TextView info,phone,setting;
++
++    private FragmentManager manager;
++
++    @Override
++    public View onCreateView(LayoutInflater inflater, final ViewGroup container, Bundle savedInstanceState) {
++        view = inflater.inflate(R.layout.fragment_person,container,false);
++        final FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
++
++        head = (ImageView)view.findViewById(R.id.person_myinfo_head);
++        head.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View v) {
++                Toast.makeText(view.getContext(),"我的头像",Toast.LENGTH_SHORT).show();
++            }
++        });
++
++        info = (TextView)view.findViewById(R.id.person_my_arrow);
++        info.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View v) {
++                Fragment_Person_info infoP = new Fragment_Person_info();
++                fragmentTransaction.add(R.id.fragment_container,infoP);
++                fragmentTransaction.commit();
++            }
++        });
++
++        phone = (TextView)view.findViewById(R.id.person_changephonenumber_arrow);
++        phone.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View v) {
++                Intent intent = new Intent();
++                startActivity(intent);
++            }
++        });
++
++
++
++        return view;
++    }
++
++
++}
+Index: app/src/main/java/com/example/a97building/minihome/Fragment_Person_info.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/a97building/minihome/Fragment_Person_info.java	(date 1489639852000)
++++ app/src/main/java/com/example/a97building/minihome/Fragment_Person_info.java	(date 1489639852000)
+@@ -0,0 +1,68 @@
++package com.example.a97building.minihome;
++
++import android.app.Fragment;
++import android.content.DialogInterface;
++import android.os.Bundle;
++import android.support.annotation.Nullable;
++import android.support.v7.app.AlertDialog;
++import android.view.LayoutInflater;
++import android.view.View;
++import android.view.ViewGroup;
++import android.widget.DatePicker;
++import android.widget.EditText;
++import android.widget.ImageView;
++import android.widget.TextView;
++import android.widget.Toast;
++
++/**
++ * Created by 97building on 2017/3/10.
++ */
++
++public class Fragment_Person_info extends Fragment{
++
++    private View view;
++    private ImageView protrait;
++    private TextView name,sex,birth,phone;
++
++    @Nullable
++    @Override
++    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
++        view = inflater.inflate(R.layout.fragment_person_info,container,false);
++
++        protrait = (ImageView)view.findViewById(R.id.person_protrait_image);
++        protrait.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View v) {
++                Toast.makeText(view.getContext(),"点击更换头像",Toast.LENGTH_SHORT).show();
++            }
++        });
++
++        name = (TextView)view.findViewById(R.id.person_name_edit);
++        name.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View v) {
++                final EditText input = new EditText(view.getContext());
++                input.setFocusable(true);
++                AlertDialog.Builder builder = new AlertDialog.Builder(view.getContext());
++                builder.setTitle("新的昵称").setView(input).setPositiveButton("确认", new DialogInterface.OnClickListener() {
++                    @Override
++                    public void onClick(DialogInterface dialog, int which) {
++                        name.setText(input.getText().toString());
++                    }
++                }).setNegativeButton("取消",null);
++                builder.show();
++            }
++        });
++
++        birth = (TextView)view.findViewById(R.id.person_birth_select);
++        birth.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View v) {
++                DatePicker data = new DatePicker(view.getContext());
++
++            }
++        });
++        return  view;
++
++    }
++}
+Index: app/src/main/java/com/example/a97building/minihome/Fragment_begin.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/a97building/minihome/Fragment_begin.java	(date 1489639852000)
++++ app/src/main/java/com/example/a97building/minihome/Fragment_begin.java	(date 1489639852000)
+@@ -0,0 +1,121 @@
++package com.example.a97building.minihome;
++
++import android.app.FragmentTransaction;
++import android.support.v4.app.FragmentManager;
++import android.support.v7.app.AppCompatActivity;
++import android.os.Bundle;
++import android.view.View;
++import android.widget.FrameLayout;
++import android.widget.TextView;
++
++public class Fragment_begin extends AppCompatActivity implements View.OnClickListener{
++    private TextView tabgroup;
++    private TextView tabbubble;
++    private TextView tabhorse;
++    private TextView tabperson;
++
++    private FrameLayout ly_content;
++
++    private Fragment_Group group;
++    private Fragment_Person person;
++    private First_fragment f3,f4;
++    private FragmentManager fragmentManager;
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_begin);
++
++        bindView();
++    }
++
++    private void bindView(){
++        tabgroup = (TextView)findViewById(R.id.begin_group);
++        tabbubble = (TextView)findViewById(R.id.begin_bubble);
++        tabhorse = (TextView)findViewById(R.id.begin_horse);
++        tabperson = (TextView)findViewById(R.id.begin_person);
++        ly_content = (FrameLayout)findViewById(R.id.fragment_container);
++
++        tabgroup.setOnClickListener(this);
++        tabbubble.setOnClickListener(this);
++        tabhorse.setOnClickListener(this);
++        tabperson.setOnClickListener(this);
++    }
++
++    public void selected(){
++        tabgroup.setSelected(false);
++        tabbubble.setSelected(false);
++        tabhorse.setSelected(false);
++        tabperson.setSelected(false);
++    }
++
++    public void hideAllFragment(FragmentTransaction fragmentTransaction){
++        if(group!= null){
++            fragmentTransaction.hide(group);
++        }
++        if(person!= null){
++            fragmentTransaction.hide(person);
++        }
++        if(f3!= null) {
++            fragmentTransaction.hide(f3);
++        }
++        if(f4!= null){
++            fragmentTransaction.hide(f4);
++        }
++    }
++
++    @Override
++    public void onClick(View v) {
++        android.app.FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
++        hideAllFragment(fragmentTransaction);
++        selected();
++        switch (v.getId()){
++            case R.id.begin_group:
++                tabgroup.setSelected(true);
++                if(group==null){
++                    group = new Fragment_Group();
++                    fragmentTransaction.add(R.id.fragment_container,group);
++                }else{
++                    fragmentTransaction.show(group);
++                }
++                break;
++
++            case R.id.begin_bubble:
++                tabbubble.setSelected(true);
++                if(f4==null){
++                    f4 = new First_fragment();
++                    f4.setContext("聊天碎片");
++                    fragmentTransaction.add(R.id.fragment_container,f4);
++                }else{
++                    fragmentTransaction.show(f4);
++                }
++                break;
++
++
++            case R.id.begin_horse:
++                tabhorse.setSelected(true);
++                if(f3==null){
++                    f3 = new First_fragment();
++                    f3.setContext("动态碎片");
++                    fragmentTransaction.add(R.id.fragment_container,f3);
++                }else{
++                    fragmentTransaction.show(f3);
++                }
++                break;
++
++            case R.id.begin_person:
++                tabperson.setSelected(true);
++                if(person==null){
++                    person = new Fragment_Person();
++                    fragmentTransaction.add(R.id.fragment_container,person);
++                }else{
++                    fragmentTransaction.show(person);
++                }
++                break;
++
++
++            default:
++        }
++        fragmentTransaction.commit();
++    }
++}
+Index: app/src/main/java/com/example/a97building/minihome/Group.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/a97building/minihome/Group.java	(date 1489639852000)
++++ app/src/main/java/com/example/a97building/minihome/Group.java	(date 1489639852000)
+@@ -0,0 +1,28 @@
++package com.example.a97building.minihome;
++
++/**
++ * Created by 97building on 2017/3/10.
++ */
++
++public class Group {
++
++    private String name;
++    private int protrait;
++
++    public Group(String name,int protrait){
++        this.name = name;
++        this.protrait = protrait;
++    }
++
++    public void setName(String name) {
++        this.name = name;
++    }
++
++    public String getName() {
++        return name;
++    }
++
++    public int getProtrait() {
++        return protrait;
++    }
++}
+Index: app/src/main/java/com/example/a97building/minihome/GroupAdapter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/a97building/minihome/GroupAdapter.java	(date 1489639852000)
++++ app/src/main/java/com/example/a97building/minihome/GroupAdapter.java	(date 1489639852000)
+@@ -0,0 +1,52 @@
++package com.example.a97building.minihome;
++
++import android.support.v7.widget.RecyclerView;
++import android.view.LayoutInflater;
++import android.view.View;
++import android.view.ViewGroup;
++import android.widget.ImageView;
++import android.widget.TextView;
++
++import java.util.List;
++
++/**
++ * Created by 97building on 2017/3/10.
++ */
++
++public class GroupAdapter extends RecyclerView.Adapter<GroupAdapter.ViewHolder> {
++    private List<Group> mGroupList;
++
++    static class ViewHolder extends RecyclerView.ViewHolder{
++        TextView groupName;
++        ImageView groupProtrait;
++
++        public ViewHolder(View view){
++            super(view);
++            groupName = (TextView) view.findViewById(R.id.group_item_name);
++            groupProtrait = (ImageView) view.findViewById(R.id.group_item_protrait);
++        }
++    }
++
++    public GroupAdapter(List<Group> groupList){
++        mGroupList = groupList;
++    }
++
++    @Override
++    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
++        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_group,parent,false);
++        ViewHolder holder = new ViewHolder(view);
++        return holder;
++    }
++
++    @Override
++    public void onBindViewHolder(ViewHolder holder, int position) {
++        Group group = mGroupList.get(position);
++        holder.groupName.setText(group.getName());
++        holder.groupProtrait.setImageResource(group.getProtrait());
++    }
++
++    @Override
++    public int getItemCount() {
++        return mGroupList.size();
++    }
++}
+Index: app/src/main/java/com/example/a97building/minihome/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/a97building/minihome/MainActivity.java	(date 1489639852000)
++++ app/src/main/java/com/example/a97building/minihome/MainActivity.java	(date 1489639852000)
+@@ -0,0 +1,44 @@
++package com.example.a97building.minihome;
++
++import android.content.Intent;
++import android.support.v7.app.AppCompatActivity;
++import android.os.Bundle;
++import android.view.View;
++import android.widget.Button;
++import android.widget.TextView;
++
++public class MainActivity extends AppCompatActivity {
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_main);
++        Button login = (Button) findViewById(R.id.main_login);
++        login.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View v) {
++                Intent intent = new Intent(MainActivity.this,Fragment_begin.class);
++                startActivity(intent);
++            }
++        });
++
++        Button signup = (Button) findViewById(R.id.main_signup);
++        signup.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View v) {
++                Intent intent = new Intent(MainActivity.this,Sign_up.class);
++                startActivity(intent);
++            }
++        });
++
++        TextView forget = (TextView) findViewById(R.id.main_forget);
++        forget.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View v) {
++                Intent intent = new Intent(MainActivity.this,forget_passwd.class);
++                startActivity(intent);
++            }
++        });
++
++    }
++}
+Index: app/src/main/java/com/example/a97building/minihome/Sign_up.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/a97building/minihome/Sign_up.java	(date 1489639852000)
++++ app/src/main/java/com/example/a97building/minihome/Sign_up.java	(date 1489639852000)
+@@ -0,0 +1,14 @@
++package com.example.a97building.minihome;
++
++import android.support.v7.app.AppCompatActivity;
++import android.os.Bundle;
++import android.view.Window;
++
++public class Sign_up extends AppCompatActivity {
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_sign_up);
++    }
++}
+Index: app/src/main/java/com/example/a97building/minihome/forget_passwd.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/a97building/minihome/forget_passwd.java	(date 1489639852000)
++++ app/src/main/java/com/example/a97building/minihome/forget_passwd.java	(date 1489639852000)
+@@ -0,0 +1,14 @@
++package com.example.a97building.minihome;
++
++import android.support.v7.app.AppCompatActivity;
++import android.os.Bundle;
++import android.view.Window;
++
++public class forget_passwd extends AppCompatActivity {
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_forget_passwd);
++    }
++}
+Index: app/src/main/res/drawable/shape.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/drawable/shape.xml	(date 1489639852000)
++++ app/src/main/res/drawable/shape.xml	(date 1489639852000)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<shape
++    xmlns:android="http://schemas.android.com/apk/res/android"
++    android:shape="rectangle">
++    <solid android:color="#fff"/>
++    <corners android:radius="5dip"/>
++    <padding
++        android:left="5dp"
++        android:right="5dp"
++        android:top="5dp"
++        android:bottom="5dp"/>
++</shape>
+\ No newline at end of file
+Index: app/src/main/res/drawable/table_menu_bg.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/drawable/table_menu_bg.xml	(date 1489639852000)
++++ app/src/main/res/drawable/table_menu_bg.xml	(date 1489639852000)
+@@ -0,0 +1,17 @@
++<?xml version="1.0" encoding="utf-8"?>
++    <selector xmlns:android="http://schemas.android.com/apk/res/android">
++
++    <item android:state_selected="true">
++        <shape>
++            <solid android:color="@color/transparent"/>
++        </shape>
++
++    </item>
++    <item>
++        <shape>
++            <solid android:color="@color/transparent"/>
++        </shape>
++
++    </item>
++
++</selector>
+\ No newline at end of file
+Index: app/src/main/res/drawable/table_menu_bubble.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/drawable/table_menu_bubble.xml	(date 1489639852000)
++++ app/src/main/res/drawable/table_menu_bubble.xml	(date 1489639852000)
+@@ -0,0 +1,5 @@
++<?xml version="1.0" encoding="utf-8"?>
++<selector xmlns:android="http://schemas.android.com/apk/res/android">
++    <item android:drawable="@mipmap/bubble" android:state_selected="true"/>
++    <item android:drawable="@mipmap/bubble_off"/>
++</selector>
+\ No newline at end of file
+Index: app/src/main/res/drawable/table_menu_bubble_text.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/drawable/table_menu_bubble_text.xml	(date 1489639852000)
++++ app/src/main/res/drawable/table_menu_bubble_text.xml	(date 1489639852000)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="utf-8"?>
++    <selector xmlns:android="http://schemas.android.com/apk/res/android">
++
++    <item android:color="@color/colorAccent" android:state_selected="true"/>
++    <item android:color="@color/menuText"/>
++
++</selector>
+\ No newline at end of file
+Index: app/src/main/res/drawable/table_menu_group.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/drawable/table_menu_group.xml	(date 1489639852000)
++++ app/src/main/res/drawable/table_menu_group.xml	(date 1489639852000)
+@@ -0,0 +1,5 @@
++<?xml version="1.0" encoding="utf-8"?>
++<selector xmlns:android="http://schemas.android.com/apk/res/android">
++    <item android:drawable="@mipmap/group" android:state_selected="true"/>
++    <item android:drawable="@mipmap/person_off"/>
++</selector>
+\ No newline at end of file
+Index: app/src/main/res/drawable/table_menu_group_text.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/drawable/table_menu_group_text.xml	(date 1489639852000)
++++ app/src/main/res/drawable/table_menu_group_text.xml	(date 1489639852000)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="utf-8"?>
++<selector xmlns:android="http://schemas.android.com/apk/res/android">
++
++    <item android:color="@color/colorAccent" android:state_selected="true"/>
++    <item android:color="@color/menuText"/>
++</selector>
+\ No newline at end of file
+Index: app/src/main/res/drawable/table_menu_horse.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/drawable/table_menu_horse.xml	(date 1489639852000)
++++ app/src/main/res/drawable/table_menu_horse.xml	(date 1489639852000)
+@@ -0,0 +1,5 @@
++<?xml version="1.0" encoding="utf-8"?>
++<selector xmlns:android="http://schemas.android.com/apk/res/android">
++    <item android:drawable="@mipmap/horse" android:state_selected="true"/>
++    <item android:drawable="@mipmap/horse_off"/>
++</selector>
+\ No newline at end of file
+Index: app/src/main/res/drawable/table_menu_horse_text.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/drawable/table_menu_horse_text.xml	(date 1489639852000)
++++ app/src/main/res/drawable/table_menu_horse_text.xml	(date 1489639852000)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="utf-8"?>
++<selector xmlns:android="http://schemas.android.com/apk/res/android">
++
++    <item android:color="@color/colorAccent" android:state_selected="true"/>
++    <item android:color="@color/menuText"/>
++</selector>
+\ No newline at end of file
+Index: app/src/main/res/drawable/table_menu_person.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/drawable/table_menu_person.xml	(date 1489639852000)
++++ app/src/main/res/drawable/table_menu_person.xml	(date 1489639852000)
+@@ -0,0 +1,5 @@
++<?xml version="1.0" encoding="utf-8"?>
++<selector xmlns:android="http://schemas.android.com/apk/res/android">
++    <item android:drawable="@mipmap/person" android:state_selected="true"/>
++    <item android:drawable="@mipmap/group_off"/>
++</selector>
+\ No newline at end of file
+Index: app/src/main/res/drawable/table_menu_person_text.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/drawable/table_menu_person_text.xml	(date 1489639852000)
++++ app/src/main/res/drawable/table_menu_person_text.xml	(date 1489639852000)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="utf-8"?>
++<selector xmlns:android="http://schemas.android.com/apk/res/android">
++
++    <item android:color="@color/colorAccent" android:state_selected="true"/>
++    <item android:color="@color/menuText"/>
++</selector>
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_begin.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_begin.xml	(date 1489639852000)
++++ app/src/main/res/layout/activity_begin.xml	(date 1489639852000)
+@@ -0,0 +1,120 @@
++<?xml version="1.0" encoding="utf-8"?>
++<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:id="@+id/activity_begin"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent">
++
++    <RelativeLayout
++        android:id="@+id/begin_title"
++        android:layout_width="match_parent"
++        android:layout_height="48dp"
++        android:background="@color/transparent"
++        >
++        <TextView
++            android:id="@+id/title_top"
++            android:layout_width="match_parent"
++            android:layout_height="match_parent"
++            android:textSize="18sp"
++            android:gravity="center_vertical"
++            android:paddingLeft="10dp"
++            android:background="@color/head_background"
++            android:textColor="#fff"
++            android:text="@string/information"
++            />
++        <View
++            android:layout_width="match_parent"
++            android:layout_height="2px"
++            android:background="@color/text_gray"
++            android:layout_alignParentBottom="true"
++            />
++    </RelativeLayout>
++    <LinearLayout
++        android:id="@+id/begin_menu"
++        android:layout_width="match_parent"
++        android:layout_height="57dp"
++        android:orientation="vertical"
++        android:layout_alignParentBottom="true"
++        >
++        <TextView
++            android:layout_width="match_parent"
++            android:layout_height="1dp"
++            android:background="#777777"
++            />
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="56dp"
++        android:orientation="horizontal"
++        >
++        <TextView
++            android:id="@+id/begin_group"
++            android:layout_width="0dp"
++            android:layout_height="match_parent"
++            android:layout_weight="1"
++            android:background="@drawable/table_menu_bg"
++            android:drawablePadding="3dp"
++            android:drawableTop="@drawable/table_menu_group"
++            android:layout_marginTop="5dp"
++            android:gravity="center"
++            android:textColor="@drawable/table_menu_group_text"
++            android:text="关系"
++            />
++        <TextView
++            android:id="@+id/begin_bubble"
++            android:layout_width="0dp"
++            android:layout_height="match_parent"
++            android:layout_weight="1"
++            android:background="@drawable/table_menu_bg"
++            android:drawablePadding="3dp"
++            android:drawableTop="@drawable/table_menu_bubble"
++            android:layout_marginTop="5dp"
++            android:gravity="center"
++            android:textColor="@drawable/table_menu_bubble_text"
++            android:text="消息"
++            />
++        <TextView
++            android:id="@+id/begin_horse"
++            android:layout_width="0dp"
++            android:layout_height="match_parent"
++            android:layout_weight="1"
++            android:background="@drawable/table_menu_bg"
++            android:drawablePadding="3dp"
++            android:drawableTop="@drawable/table_menu_horse"
++            android:layout_marginTop="5dp"
++            android:gravity="center"
++            android:textColor="@drawable/table_menu_horse_text"
++            android:text="动态"
++            />
++        <TextView
++            android:id="@+id/begin_person"
++            android:layout_width="0dp"
++            android:layout_height="match_parent"
++            android:layout_weight="1"
++            android:background="@drawable/table_menu_bg"
++            android:drawablePadding="3dp"
++            android:drawableTop="@drawable/table_menu_person"
++            android:layout_marginTop="5dp"
++            android:gravity="center"
++            android:textColor="@drawable/table_menu_person_text"
++            android:text="我的"
++            />
++
++    </LinearLayout>
++    </LinearLayout>
++    <View
++        android:id="@+id/div_tab_bar"
++        android:layout_width="match_parent"
++        android:layout_height="2px"
++        android:background="@color/text_gray"
++        android:layout_above="@id/begin_menu"/>
++
++    <FrameLayout
++        android:id="@+id/fragment_container"
++        android:layout_width="match_parent"
++        android:layout_height="match_parent"
++        android:layout_below="@id/begin_title"
++        android:layout_above="@id/begin_menu"
++        android:background="@color/transparent">
++    </FrameLayout>
++
++</RelativeLayout>
+Index: app/src/main/res/layout/activity_forget_passwd.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_forget_passwd.xml	(date 1489639852000)
++++ app/src/main/res/layout/activity_forget_passwd.xml	(date 1489639852000)
+@@ -0,0 +1,155 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:id="@+id/activity_forget_passwd"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:orientation="vertical"
++    >
++
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="20dp"
++        android:layout_marginLeft="10dp"
++        android:orientation="horizontal">
++        <TextView
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:layout_weight="3"
++            android:layout_gravity="left"
++            android:textSize="18dp"
++            android:text="手机号:"
++            android:layout_marginBottom="10dp"
++            />
++        <EditText
++            android:id="@+id/forget_phonenumber"
++            android:layout_width="match_parent"
++            android:layout_height="match_parent"
++            android:layout_weight="1"
++            android:background="@null"
++            />
++
++    </LinearLayout>
++    <TextView
++        android:layout_width="match_parent"
++        android:layout_height="1dp"
++        android:background="#7f7f7f"
++        android:layout_marginLeft="10dp"
++        android:layout_marginRight="10dp"
++        />
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="20dp"
++        android:layout_marginLeft="10dp"
++        android:layout_marginBottom="10dp"
++        android:orientation="horizontal">
++        <TextView
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:layout_weight="3"
++            android:layout_gravity="left"
++            android:textSize="18dp"
++            android:text="验证码:"
++            android:layout_marginBottom="10dp"
++            />
++        <EditText
++            android:id="@+id/forget_checknumber"
++            android:layout_width="match_parent"
++            android:layout_height="match_parent"
++            android:layout_weight="2"
++            android:background="@null"
++            />
++        <Button
++            android:layout_width="match_parent"
++            android:layout_height="match_parent"
++            android:layout_weight="3"
++            android:background="@drawable/shape"
++            android:text="获取验证码"
++            android:gravity="center"
++            android:layout_gravity="center_horizontal"
++            />
++
++    </LinearLayout>
++    <TextView
++        android:layout_width="match_parent"
++        android:layout_height="1dp"
++        android:background="#7f7f7f"
++        android:layout_marginLeft="10dp"
++        android:layout_marginRight="10dp"
++        />
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="20dp"
++        android:layout_marginLeft="10dp"
++        android:layout_marginBottom="10dp"
++        android:orientation="horizontal">
++        <TextView
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:layout_weight="3"
++            android:layout_gravity="left"
++            android:textSize="18dp"
++            android:text="新密码:"
++            android:layout_marginBottom="10dp"
++            />
++        <EditText
++            android:id="@+id/forget_newpasswd"
++            android:layout_width="match_parent"
++            android:layout_height="match_parent"
++            android:layout_weight="1"
++            android:background="@null"
++            />
++
++    </LinearLayout>
++    <TextView
++        android:layout_width="match_parent"
++        android:layout_height="1dp"
++        android:background="#7f7f7f"
++        android:layout_marginLeft="10dp"
++        android:layout_marginRight="10dp"
++        />
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="20dp"
++        android:layout_marginLeft="10dp"
++        android:layout_marginBottom="10dp"
++        android:orientation="horizontal">
++        <TextView
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:layout_weight="3"
++            android:layout_gravity="left"
++            android:textSize="18dp"
++            android:text="确认密码:"
++            android:layout_marginBottom="10dp"
++            />
++        <EditText
++            android:id="@+id/forget_newagain"
++            android:layout_width="match_parent"
++            android:layout_height="match_parent"
++            android:layout_weight="1"
++            android:background="@null"
++            />
++
++    </LinearLayout>
++    <TextView
++        android:layout_width="match_parent"
++        android:layout_height="1dp"
++        android:background="#7f7f7f"
++        android:layout_marginLeft="10dp"
++        android:layout_marginRight="10dp"
++        />
++    <Button
++        android:id="@+id/forget_submit"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginLeft="15dp"
++        android:layout_marginRight="15dp"
++        android:background="@drawable/shape"
++        android:text="确认"
++        />
++</LinearLayout>
+Index: app/src/main/res/layout/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_main.xml	(date 1489639852000)
++++ app/src/main/res/layout/activity_main.xml	(date 1489639852000)
+@@ -0,0 +1,103 @@
++<?xml version="1.0" encoding="utf-8"?>
++<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:id="@+id/activity_main"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:paddingBottom="@dimen/activity_vertical_margin"
++    android:paddingLeft="@dimen/activity_horizontal_margin"
++    android:paddingRight="@dimen/activity_horizontal_margin"
++    android:paddingTop="@dimen/activity_vertical_margin"
++    tools:context="com.example.a97building.minihome.MainActivity"
++    >
++
++    <RelativeLayout
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_centerInParent="true"
++        >
++
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginLeft="60dp"
++        android:layout_marginRight="60dp"
++        android:orientation="vertical"
++        >
++    <EditText
++        android:id="@+id/main_username"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginBottom="5dp"
++        android:background="@null"
++        android:textSize="18dp"
++        android:hint="用户名/手机号"
++        android:gravity="left"
++        />
++        <TextView
++            android:layout_width="match_parent"
++            android:layout_height="1dp"
++            android:background="#7f7f7f"
++            />
++        <EditText
++            android:id="@+id/main_passwd"
++            android:layout_marginTop="10dp"
++            android:layout_marginBottom="5dp"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:background="@null"
++            android:textSize="18dp"
++            android:hint="密码"
++            android:gravity="left"
++            />
++        <TextView
++            android:layout_width="match_parent"
++            android:layout_height="1dp"
++            android:background="#7f7f7f"
++            />
++        <LinearLayout
++            android:layout_marginTop="10dp"
++            android:id="@+id/select_memo"
++            android:layout_width="fill_parent"
++            android:layout_height="wrap_content"
++            android:orientation="horizontal">
++        <CheckBox
++            android:id="@+id/main_remember"
++            android:layout_width="wrap_content"
++            android:layout_height="match_parent"
++            android:layout_weight="3"
++            android:layout_gravity="left"
++            android:text="记住密码"
++            />
++            <TextView
++                android:id="@+id/main_forget"
++                android:layout_width="wrap_content"
++                android:layout_height="match_parent"
++                android:layout_weight="1"
++                android:gravity="center"
++                android:text="忘记密码?"
++                />
++        </LinearLayout>
++        <Button
++            android:id="@+id/main_login"
++            android:layout_marginTop="10dp"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:gravity="center"
++            android:background="@drawable/shape"
++            android:radius="5dip"
++            android:text="登录"
++            />
++        <Button
++            android:id="@+id/main_signup"
++            android:layout_marginTop="10dp"
++            android:layout_marginBottom="10dp"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:gravity="center"
++            android:background="@drawable/shape"
++            android:text="注册"
++            />
++    </LinearLayout>
++    </RelativeLayout>
++</RelativeLayout>
+Index: app/src/main/res/layout/activity_sign_up.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_sign_up.xml	(date 1489639852000)
++++ app/src/main/res/layout/activity_sign_up.xml	(date 1489639852000)
+@@ -0,0 +1,100 @@
++<?xml version="1.0" encoding="utf-8"?>
++<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:id="@+id/activity_sign_up"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:paddingBottom="@dimen/activity_vertical_margin"
++    android:paddingLeft="@dimen/activity_horizontal_margin"
++    android:paddingRight="@dimen/activity_horizontal_margin"
++    android:paddingTop="@dimen/activity_vertical_margin"
++    tools:context="com.example.a97building.minihome.Sign_up">
++
++    <RelativeLayout
++        android:id="@+id/sign_main"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="5dp"
++        android:layout_marginLeft="10dp"
++        >
++
++<LinearLayout
++    android:layout_width="match_parent"
++    android:layout_height="wrap_content"
++    android:orientation="vertical"
++    >
++
++    <EditText
++            android:id="@+id/input_username"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:textSize="14dp"
++            android:hint="昵称:"
++            android:layout_gravity="left"
++            />
++    <EditText
++        android:id="@+id/inout_passwd"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="10dp"
++        android:textSize="14dp"
++        android:hint="密码"
++        />
++    <EditText
++        android:id="@+id/inout_passwdagain"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="10dp"
++        android:textSize="14dp"
++        android:hint="确认密码"
++        />
++    <EditText
++        android:id="@+id/input_phonenumber"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="10dp"
++        android:textSize="14dp"
++        android:hint="手机号:"
++        />
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="10dp"
++        android:orientation="horizontal">
++
++        <EditText
++            android:id="@+id/input_checknum"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:layout_weight="1"
++            android:layout_gravity="left"
++            android:textSize="14dp"
++            android:hint="验证码"
++            />
++        <Button
++            android:id="@+id/input_getcheck"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:layout_weight="2"
++            android:layout_gravity="right"
++            android:background="@drawable/shape"
++            android:textSize="10dp"
++            android:text="获取验证码"
++            />
++    </LinearLayout>
++    <Button
++        android:id="@+id/inout_submit"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginLeft="15dp"
++        android:layout_marginRight="15dp"
++        android:layout_marginTop="10dp"
++        android:layout_marginBottom="10dp"
++        android:text="完成注册"
++        android:textColor="#FF9E00"
++        android:background="@drawable/shape"
++
++        />
++</LinearLayout>
++    </RelativeLayout>
++</RelativeLayout>
+Index: app/src/main/res/layout/bubbule_fragment.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/bubbule_fragment.xml	(date 1489639852000)
++++ app/src/main/res/layout/bubbule_fragment.xml	(date 1489639852000)
+@@ -0,0 +1,10 @@
++<?xml version="1.0" encoding="utf-8"?>
++    <LinearLayout
++        xmlns:android="http://schemas.android.com/apk/res/android"
++        android:id="@+id/frag_bubble"
++        android:layout_width="match_parent"
++        android:layout_height="match_parent"
++        android:orientation="vertical"
++    >
++
++    </LinearLayout>
+\ No newline at end of file
+Index: app/src/main/res/layout/first_fragment.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/first_fragment.xml	(date 1489639852000)
++++ app/src/main/res/layout/first_fragment.xml	(date 1489639852000)
+@@ -0,0 +1,19 @@
++<?xml version="1.0" encoding="utf-8"?>
++    <LinearLayout
++        xmlns:android="http://schemas.android.com/apk/res/android"
++        android:orientation="vertical"
++        android:layout_width="match_parent"
++        android:layout_height="match_parent"
++        android:background="@color/transparent"
++    >
++    <TextView
++        android:id="@+id/txt_content"
++        android:layout_width="match_parent"
++        android:layout_height="match_parent"
++        android:gravity="center"
++        android:text="散落一地的风尘"
++        android:textColor="#000"
++        android:textSize="20dp"
++        />
++
++</LinearLayout>
+Index: app/src/main/res/layout/fragment_group.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/fragment_group.xml	(date 1489639852000)
++++ app/src/main/res/layout/fragment_group.xml	(date 1489639852000)
+@@ -0,0 +1,23 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout
++    xmlns:android="http://schemas.android.com/apk/res/android"
++    android:id="@+id/frag_group"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:orientation="vertical"
++    >
++    <SearchView
++        android:id="@+id/group_search"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:iconifiedByDefault="false"
++        android:queryHint="搜索"
++        />
++    <android.support.v7.widget.RecyclerView
++        android:id="@+id/group_tiem_recyclerview"
++        android:layout_width="match_parent"
++        android:layout_height="0dp"
++        android:layout_weight="1"
++        />
++
++</LinearLayout>
+\ No newline at end of file
+Index: app/src/main/res/layout/fragment_person.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/fragment_person.xml	(date 1489639852000)
++++ app/src/main/res/layout/fragment_person.xml	(date 1489639852000)
+@@ -0,0 +1,122 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout
++    xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    android:id="@+id/frag_group"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:orientation="vertical"
++    android:background="#f7f7f7"
++    >
++
++    <RelativeLayout
++        android:id="@+id/person_myinfo"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:orientation="horizontal"
++        android:background="#fff"
++        android:layout_marginTop="20dp"
++        >
++        <ImageView
++            android:id="@+id/person_myinfo_head"
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:maxHeight="50dp"
++            android:maxWidth="50dp"
++            android:layout_alignParentLeft="true"
++            android:layout_marginTop="10dp"
++            android:layout_marginBottom="10dp"
++            android:layout_marginLeft="20dp"
++            android:background="@drawable/litao"
++            />
++        <TextView
++            android:id="@+id/person_myinfo_text"
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:layout_centerInParent="true"
++            android:text="我的资料"
++            />
++        <TextView
++            android:id="@+id/person_my_arrow"
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:layout_marginRight="20dp"
++            android:layout_alignParentRight="true"
++            android:layout_centerInParent="true"
++            android:textSize="20sp"
++            android:text="➡"
++            />
++    </RelativeLayout>
++
++    <RelativeLayout
++        android:id="@+id/person_changephonenumber"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:orientation="horizontal"
++        android:background="#fff"
++        android:layout_marginTop="10dp"
++        >
++
++        <TextView
++            android:id="@+id/person_changephonenumber_text"
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:layout_centerInParent="true"
++            android:paddingTop="10dp"
++            android:paddingBottom="10dp"
++            android:text="更改绑定手机号"
++            />
++        <TextView
++            android:id="@+id/person_changephonenumber_arrow"
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:layout_marginRight="20dp"
++            android:layout_alignParentRight="true"
++            android:layout_centerInParent="true"
++            android:textSize="20sp"
++            android:text="➡"
++            />
++    </RelativeLayout>
++
++    <RelativeLayout
++        android:id="@+id/person_setting"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:orientation="horizontal"
++        android:background="#fff"
++        android:layout_marginTop="10dp"
++        >
++
++        <TextView
++            android:id="@+id/person_setting_text"
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:layout_centerInParent="true"
++            android:paddingTop="10dp"
++            android:paddingBottom="10dp"
++            android:text="设置"
++            />
++        <TextView
++            android:id="@+id/person_setting_arrow"
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:layout_marginRight="20dp"
++            android:layout_alignParentRight="true"
++            android:layout_centerInParent="true"
++            android:textSize="20sp"
++            android:text="➡"
++            />
++    </RelativeLayout>
++
++    <Button
++        android:id="@+id/person_logout"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="20dp"
++        android:layout_marginLeft="20dp"
++        android:layout_marginRight="20dp"
++        android:textColor="#ff1111"
++        android:text="注销"
++        android:background="@drawable/shape"
++        />
++    </LinearLayout>
+\ No newline at end of file
+Index: app/src/main/res/layout/fragment_person_info.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/fragment_person_info.xml	(date 1489639852000)
++++ app/src/main/res/layout/fragment_person_info.xml	(date 1489639852000)
+@@ -0,0 +1,179 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout
++    xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    android:id="@+id/frag_group"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:orientation="vertical"
++    android:background="#f7f7f7"
++    >
++
++    <LinearLayout
++        android:id="@+id/person_protrait"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:orientation="horizontal"
++        android:layout_marginTop="20dp"
++        android:layout_marginBottom="10dp"
++        android:background="#fff"
++        >
++        <TextView
++            android:layout_width="wrap_content"
++            android:layout_height="match_parent"
++            android:paddingLeft="20dp"
++            android:layout_gravity="left"
++            android:gravity="center_vertical"
++            android:text="头像"
++            />
++        <TextView
++            android:layout_width="0dp"
++            android:layout_weight="1"
++            android:layout_height="match_parent" />
++        <ImageView
++            android:id="@+id/person_protrait_image"
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:layout_marginRight="20dp"
++            android:layout_marginTop="10dp"
++            android:layout_marginBottom="10dp"
++            android:maxHeight="40dp"
++            android:maxWidth="40dp"
++            android:background="@drawable/litao" />
++
++    </LinearLayout>
++    <LinearLayout
++        android:id="@+id/person_name"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:orientation="horizontal"
++        android:layout_marginTop="20dp"
++        android:layout_marginBottom="10dp"
++        android:background="#fff"
++        >
++        <TextView
++            android:layout_width="wrap_content"
++            android:layout_height="match_parent"
++            android:paddingLeft="20dp"
++            android:layout_gravity="left"
++            android:gravity="center_vertical"
++            android:text="昵称"
++            />
++        <TextView
++            android:layout_width="0dp"
++            android:layout_weight="1"
++            android:layout_height="match_parent" />
++        <TextView
++            android:id="@+id/person_name_edit"
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:layout_marginRight="20dp"
++            android:layout_marginTop="10dp"
++            android:layout_marginBottom="10dp"
++            android:text="李涛"
++            />
++
++    </LinearLayout>
++
++    <LinearLayout
++        android:id="@+id/person_sex"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:orientation="horizontal"
++        android:layout_marginTop="20dp"
++        android:layout_marginBottom="10dp"
++        android:background="#fff"
++        >
++        <TextView
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:paddingLeft="20dp"
++            android:layout_marginTop="10dp"
++            android:layout_marginBottom="10dp"
++            android:gravity="center_vertical"
++            android:text="性别"
++            />
++        <TextView
++            android:layout_width="0dp"
++            android:layout_weight="1"
++            android:layout_height="match_parent" />
++        <TextView
++            android:id="@+id/person_sex_select"
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:layout_marginTop="10dp"
++            android:layout_marginBottom="10dp"
++            android:paddingRight="20dp"
++            android:text="男"
++            />
++
++    </LinearLayout>
++
++    <LinearLayout
++        android:id="@+id/person_brith"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:orientation="horizontal"
++        android:layout_marginTop="20dp"
++        android:layout_marginBottom="10dp"
++        android:background="#fff"
++        >
++        <TextView
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:paddingLeft="20dp"
++            android:layout_marginTop="10dp"
++            android:layout_marginBottom="10dp"
++            android:gravity="center_vertical"
++            android:text="生日"
++            />
++        <TextView
++            android:layout_width="0dp"
++            android:layout_weight="1"
++            android:layout_height="match_parent" />
++        <TextView
++            android:id="@+id/person_birth_select"
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:layout_marginTop="10dp"
++            android:layout_marginBottom="10dp"
++            android:paddingRight="20dp"
++            android:text="1949-10-01"
++            />
++
++    </LinearLayout>
++    <LinearLayout
++        android:id="@+id/person_phonenumber"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:orientation="horizontal"
++        android:layout_marginTop="20dp"
++        android:layout_marginBottom="10dp"
++        android:background="#fff"
++        >
++        <TextView
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:paddingLeft="20dp"
++            android:layout_marginTop="10dp"
++            android:layout_marginBottom="10dp"
++            android:gravity="center_vertical"
++            android:text="电话"
++            />
++        <TextView
++            android:layout_width="0dp"
++            android:layout_weight="1"
++            android:layout_height="match_parent" />
++        <TextView
++            android:id="@+id/person_phonenumber_select"
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:layout_marginTop="10dp"
++            android:layout_marginBottom="10dp"
++            android:paddingRight="20dp"
++            android:text="13888888888"
++            />
++
++    </LinearLayout>
++
++</LinearLayout>
+\ No newline at end of file
+Index: app/src/main/res/layout/item_group.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/item_group.xml	(date 1489639852000)
++++ app/src/main/res/layout/item_group.xml	(date 1489639852000)
+@@ -0,0 +1,35 @@
++<?xml version="1.0" encoding="utf-8"?>
++  <LinearLayout
++    xmlns:android="http://schemas.android.com/apk/res/android"
++    android:layout_width="match_parent"
++    android:layout_height="wrap_content"
++    android:orientation="vertical"
++    >
++    <LinearLayout
++    xmlns:android="http://schemas.android.com/apk/res/android"
++    android:layout_width="match_parent"
++    android:layout_height="wrap_content"
++    android:orientation="horizontal"
++    android:layout_margin="10dp"
++    >
++
++    <ImageView
++        android:id="@+id/group_item_protrait"
++        android:layout_width="50dp"
++        android:layout_height="50dp"
++        />
++
++    <TextView
++        android:id="@+id/group_item_name"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:maxLines="1"
++        android:layout_gravity="center_vertical"
++        />
++</LinearLayout>
++    <TextView
++    android:layout_width="match_parent"
++    android:layout_height="1dp"
++    android:background="#a2a2a2"
++        />
++</LinearLayout>
+\ No newline at end of file
+Index: app/src/main/res/values-w820dp/dimens.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values-w820dp/dimens.xml	(date 1489639852000)
++++ app/src/main/res/values-w820dp/dimens.xml	(date 1489639852000)
+@@ -0,0 +1,6 @@
++<resources>
++    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
++         (such as screen margins) for screens with more than 820dp of available width. This
++         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
++    <dimen name="activity_horizontal_margin">64dp</dimen>
++</resources>
+Index: app/src/main/res/values/colors.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/colors.xml	(date 1489639852000)
++++ app/src/main/res/values/colors.xml	(date 1489639852000)
+@@ -0,0 +1,10 @@
++<?xml version="1.0" encoding="utf-8"?>
++<resources>
++    <color name="colorPrimary">#3F51B5</color>
++    <color name="colorPrimaryDark">#303F9F</color>
++    <color name="colorAccent">#FF7E00</color>
++    <color name="text_gray">#f0f0f0</color>
++    <color name="transparent">#fff</color>
++    <color name="head_background">#272727</color>
++    <color name="menuText">#898c89</color>
++</resources>
+Index: app/src/main/res/values/dimens.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/dimens.xml	(date 1489639852000)
++++ app/src/main/res/values/dimens.xml	(date 1489639852000)
+@@ -0,0 +1,5 @@
++<resources>
++    <!-- Default screen margins, per the Android Design guidelines. -->
++    <dimen name="activity_horizontal_margin">16dp</dimen>
++    <dimen name="activity_vertical_margin">16dp</dimen>
++</resources>
+Index: app/src/main/res/values/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/strings.xml	(date 1489639852000)
++++ app/src/main/res/values/strings.xml	(date 1489639852000)
+@@ -0,0 +1,4 @@
++<resources>
++    <string name="app_name">MiniHome</string>
++    <string name="information">微家</string>
++</resources>
+Index: app/src/main/res/values/styles.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/styles.xml	(date 1489639852000)
++++ app/src/main/res/values/styles.xml	(date 1489639852000)
+@@ -0,0 +1,14 @@
++<resources>
++
++    <!-- Base application theme. -->
++    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
++        <!-- Customize your theme here. -->
++        <item name="colorPrimary">@color/colorPrimary</item>
++        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
++        <item name="colorAccent">#FF7E00</item>
++
++    </style>
++    <style name="AppTheme.NoBar">
++        <item name="windowNoTitle">true</item>
++    </style>
++</resources>
+Index: app/src/test/java/com/example/a97building/minihome/ExampleUnitTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/test/java/com/example/a97building/minihome/ExampleUnitTest.java	(date 1489639852000)
++++ app/src/test/java/com/example/a97building/minihome/ExampleUnitTest.java	(date 1489639852000)
+@@ -0,0 +1,17 @@
++package com.example.a97building.minihome;
++
++import org.junit.Test;
++
++import static org.junit.Assert.*;
++
++/**
++ * Example local unit test, which will execute on the development machine (host).
++ *
++ * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
++ */
++public class ExampleUnitTest {
++    @Test
++    public void addition_isCorrect() throws Exception {
++        assertEquals(4, 2 + 2);
++    }
++}
+\ No newline at end of file
+Index: build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- build.gradle	(date 1489639852000)
++++ build.gradle	(date 1489639852000)
+@@ -0,0 +1,23 @@
++// Top-level build file where you can add configuration options common to all sub-projects/modules.
++
++buildscript {
++    repositories {
++        jcenter()
++    }
++    dependencies {
++        classpath 'com.android.tools.build:gradle:2.3.0'
++
++        // NOTE: Do not place your application dependencies here; they belong
++        // in the individual module build.gradle files
++    }
++}
++
++allprojects {
++    repositories {
++        jcenter()
++    }
++}
++
++task clean(type: Delete) {
++    delete rootProject.buildDir
++}
+Index: gradle.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- gradle.properties	(date 1489639852000)
++++ gradle.properties	(date 1489639852000)
+@@ -0,0 +1,17 @@
++# Project-wide Gradle settings.
++
++# IDE (e.g. Android Studio) users:
++# Gradle settings configured through the IDE *will override*
++# any settings specified in this file.
++
++# For more details on how to configure your build environment visit
++# http://www.gradle.org/docs/current/userguide/build_environment.html
++
++# Specifies the JVM arguments used for the daemon process.
++# The setting is particularly useful for tweaking memory settings.
++org.gradle.jvmargs=-Xmx1536m
++
++# When configured, Gradle will run in incubating parallel mode.
++# This option should only be used with decoupled projects. More details, visit
++# http://www.gradle.org/docs/current/userguide/multi_project_builds.html#sec:decoupled_projects
++# org.gradle.parallel=true
+Index: gradle/wrapper/gradle-wrapper.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- gradle/wrapper/gradle-wrapper.properties	(date 1489639852000)
++++ gradle/wrapper/gradle-wrapper.properties	(date 1489639852000)
+@@ -0,0 +1,6 @@
++#Thu Mar 16 12:35:18 CST 2017
++distributionBase=GRADLE_USER_HOME
++distributionPath=wrapper/dists
++zipStoreBase=GRADLE_USER_HOME
++zipStorePath=wrapper/dists
++distributionUrl=https\://services.gradle.org/distributions/gradle-3.3-all.zip
+Index: gradlew
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- gradlew	(date 1489639852000)
++++ gradlew	(date 1489639852000)
+@@ -0,0 +1,160 @@
++#!/usr/bin/env bash
++
++##############################################################################
++##
++##  Gradle start up script for UN*X
++##
++##############################################################################
++
++# Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
++DEFAULT_JVM_OPTS=""
++
++APP_NAME="Gradle"
++APP_BASE_NAME=`basename "$0"`
++
++# Use the maximum available, or set MAX_FD != -1 to use that value.
++MAX_FD="maximum"
++
++warn ( ) {
++    echo "$*"
++}
++
++die ( ) {
++    echo
++    echo "$*"
++    echo
++    exit 1
++}
++
++# OS specific support (must be 'true' or 'false').
++cygwin=false
++msys=false
++darwin=false
++case "`uname`" in
++  CYGWIN* )
++    cygwin=true
++    ;;
++  Darwin* )
++    darwin=true
++    ;;
++  MINGW* )
++    msys=true
++    ;;
++esac
++
++# Attempt to set APP_HOME
++# Resolve links: $0 may be a link
++PRG="$0"
++# Need this for relative symlinks.
++while [ -h "$PRG" ] ; do
++    ls=`ls -ld "$PRG"`
++    link=`expr "$ls" : '.*-> \(.*\)$'`
++    if expr "$link" : '/.*' > /dev/null; then
++        PRG="$link"
++    else
++        PRG=`dirname "$PRG"`"/$link"
++    fi
++done
++SAVED="`pwd`"
++cd "`dirname \"$PRG\"`/" >/dev/null
++APP_HOME="`pwd -P`"
++cd "$SAVED" >/dev/null
++
++CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar
++
++# Determine the Java command to use to start the JVM.
++if [ -n "$JAVA_HOME" ] ; then
++    if [ -x "$JAVA_HOME/jre/sh/java" ] ; then
++        # IBM's JDK on AIX uses strange locations for the executables
++        JAVACMD="$JAVA_HOME/jre/sh/java"
++    else
++        JAVACMD="$JAVA_HOME/bin/java"
++    fi
++    if [ ! -x "$JAVACMD" ] ; then
++        die "ERROR: JAVA_HOME is set to an invalid directory: $JAVA_HOME
++
++Please set the JAVA_HOME variable in your environment to match the
++location of your Java installation."
++    fi
++else
++    JAVACMD="java"
++    which java >/dev/null 2>&1 || die "ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.
++
++Please set the JAVA_HOME variable in your environment to match the
++location of your Java installation."
++fi
++
++# Increase the maximum file descriptors if we can.
++if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
++    MAX_FD_LIMIT=`ulimit -H -n`
++    if [ $? -eq 0 ] ; then
++        if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
++            MAX_FD="$MAX_FD_LIMIT"
++        fi
++        ulimit -n $MAX_FD
++        if [ $? -ne 0 ] ; then
++            warn "Could not set maximum file descriptor limit: $MAX_FD"
++        fi
++    else
++        warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
++    fi
++fi
++
++# For Darwin, add options to specify how the application appears in the dock
++if $darwin; then
++    GRADLE_OPTS="$GRADLE_OPTS \"-Xdock:name=$APP_NAME\" \"-Xdock:icon=$APP_HOME/media/gradle.icns\""
++fi
++
++# For Cygwin, switch paths to Windows format before running java
++if $cygwin ; then
++    APP_HOME=`cygpath --path --mixed "$APP_HOME"`
++    CLASSPATH=`cygpath --path --mixed "$CLASSPATH"`
++    JAVACMD=`cygpath --unix "$JAVACMD"`
++
++    # We build the pattern for arguments to be converted via cygpath
++    ROOTDIRSRAW=`find -L / -maxdepth 1 -mindepth 1 -type d 2>/dev/null`
++    SEP=""
++    for dir in $ROOTDIRSRAW ; do
++        ROOTDIRS="$ROOTDIRS$SEP$dir"
++        SEP="|"
++    done
++    OURCYGPATTERN="(^($ROOTDIRS))"
++    # Add a user-defined pattern to the cygpath arguments
++    if [ "$GRADLE_CYGPATTERN" != "" ] ; then
++        OURCYGPATTERN="$OURCYGPATTERN|($GRADLE_CYGPATTERN)"
++    fi
++    # Now convert the arguments - kludge to limit ourselves to /bin/sh
++    i=0
++    for arg in "$@" ; do
++        CHECK=`echo "$arg"|egrep -c "$OURCYGPATTERN" -`
++        CHECK2=`echo "$arg"|egrep -c "^-"`                                 ### Determine if an option
++
++        if [ $CHECK -ne 0 ] && [ $CHECK2 -eq 0 ] ; then                    ### Added a condition
++            eval `echo args$i`=`cygpath --path --ignore --mixed "$arg"`
++        else
++            eval `echo args$i`="\"$arg\""
++        fi
++        i=$((i+1))
++    done
++    case $i in
++        (0) set -- ;;
++        (1) set -- "$args0" ;;
++        (2) set -- "$args0" "$args1" ;;
++        (3) set -- "$args0" "$args1" "$args2" ;;
++        (4) set -- "$args0" "$args1" "$args2" "$args3" ;;
++        (5) set -- "$args0" "$args1" "$args2" "$args3" "$args4" ;;
++        (6) set -- "$args0" "$args1" "$args2" "$args3" "$args4" "$args5" ;;
++        (7) set -- "$args0" "$args1" "$args2" "$args3" "$args4" "$args5" "$args6" ;;
++        (8) set -- "$args0" "$args1" "$args2" "$args3" "$args4" "$args5" "$args6" "$args7" ;;
++        (9) set -- "$args0" "$args1" "$args2" "$args3" "$args4" "$args5" "$args6" "$args7" "$args8" ;;
++    esac
++fi
++
++# Split up the JVM_OPTS And GRADLE_OPTS values into an array, following the shell quoting and substitution rules
++function splitJvmOpts() {
++    JVM_OPTS=("$@")
++}
++eval splitJvmOpts $DEFAULT_JVM_OPTS $JAVA_OPTS $GRADLE_OPTS
++JVM_OPTS[${#JVM_OPTS[*]}]="-Dorg.gradle.appname=$APP_BASE_NAME"
++
++exec "$JAVACMD" "${JVM_OPTS[@]}" -classpath "$CLASSPATH" org.gradle.wrapper.GradleWrapperMain "$@"
+Index: gradlew.bat
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- gradlew.bat	(date 1489639852000)
++++ gradlew.bat	(date 1489639852000)
+@@ -0,0 +1,90 @@
++@if "%DEBUG%" == "" @echo off
++@rem ##########################################################################
++@rem
++@rem  Gradle startup script for Windows
++@rem
++@rem ##########################################################################
++
++@rem Set local scope for the variables with windows NT shell
++if "%OS%"=="Windows_NT" setlocal
++
++@rem Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
++set DEFAULT_JVM_OPTS=
++
++set DIRNAME=%~dp0
++if "%DIRNAME%" == "" set DIRNAME=.
++set APP_BASE_NAME=%~n0
++set APP_HOME=%DIRNAME%
++
++@rem Find java.exe
++if defined JAVA_HOME goto findJavaFromJavaHome
++
++set JAVA_EXE=java.exe
++%JAVA_EXE% -version >NUL 2>&1
++if "%ERRORLEVEL%" == "0" goto init
++
++echo.
++echo ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.
++echo.
++echo Please set the JAVA_HOME variable in your environment to match the
++echo location of your Java installation.
++
++goto fail
++
++:findJavaFromJavaHome
++set JAVA_HOME=%JAVA_HOME:"=%
++set JAVA_EXE=%JAVA_HOME%/bin/java.exe
++
++if exist "%JAVA_EXE%" goto init
++
++echo.
++echo ERROR: JAVA_HOME is set to an invalid directory: %JAVA_HOME%
++echo.
++echo Please set the JAVA_HOME variable in your environment to match the
++echo location of your Java installation.
++
++goto fail
++
++:init
++@rem Get command-line arguments, handling Windowz variants
++
++if not "%OS%" == "Windows_NT" goto win9xME_args
++if "%@eval[2+2]" == "4" goto 4NT_args
++
++:win9xME_args
++@rem Slurp the command line arguments.
++set CMD_LINE_ARGS=
++set _SKIP=2
++
++:win9xME_args_slurp
++if "x%~1" == "x" goto execute
++
++set CMD_LINE_ARGS=%*
++goto execute
++
++:4NT_args
++@rem Get arguments from the 4NT Shell from JP Software
++set CMD_LINE_ARGS=%$
++
++:execute
++@rem Setup the command line
++
++set CLASSPATH=%APP_HOME%\gradle\wrapper\gradle-wrapper.jar
++
++@rem Execute Gradle
++"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_OPTS% "-Dorg.gradle.appname=%APP_BASE_NAME%" -classpath "%CLASSPATH%" org.gradle.wrapper.GradleWrapperMain %CMD_LINE_ARGS%
++
++:end
++@rem End local scope for the variables with windows NT shell
++if "%ERRORLEVEL%"=="0" goto mainEnd
++
++:fail
++rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of
++rem the _cmd.exe /c_ return code!
++if  not "" == "%GRADLE_EXIT_CONSOLE%" exit 1
++exit /b 1
++
++:mainEnd
++if "%OS%"=="Windows_NT" endlocal
++
++:omega
+Index: settings.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- settings.gradle	(date 1489639852000)
++++ settings.gradle	(date 1489639852000)
+@@ -0,0 +1,1 @@
++include ':app'
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(date 1489640188000)
++++ .idea/vcs.xml	(date 1489640188000)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file

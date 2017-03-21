@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-public class Fragment_begin extends AppCompatActivity implements View.OnClickListener{
+public class Login_Main extends AppCompatActivity implements View.OnClickListener{
     private TextView tabgroup;
     private TextView tabbubble;
     private TextView tabhorse;
@@ -66,7 +66,7 @@ public class Fragment_begin extends AppCompatActivity implements View.OnClickLis
 
     @Override
     public void onClick(View v) {
-        android.app.FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+        FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
         hideAllFragment(fragmentTransaction);
         selected();
         switch (v.getId()){

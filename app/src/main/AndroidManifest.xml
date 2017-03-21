@@ -17,7 +17,8 @@
         </activity>
         <activity android:name=".Sign_up" />
         <activity android:name=".forget_passwd" />
-        <activity android:name=".Fragment_begin"></activity>
+        <activity android:name=".Login_Main"/>
+
     </application>
 
 </manifest>

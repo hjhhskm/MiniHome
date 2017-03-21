@@ -1,7 +1,10 @@
 package com.example.a97building.minihome;
 
 import android.app.Fragment;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AlertDialog;
@@ -18,11 +21,12 @@ import android.widget.Toast;
  * Created by 97building on 2017/3/10.
  */
 
-public class Fragment_Person_info extends Fragment{
+public class Fragment_Person_info extends Fragment {
 
     private View view;
     private ImageView protrait;
     private TextView name,sex,birth,phone;
+
 
     @Nullable
     @Override
@@ -33,7 +37,8 @@ public class Fragment_Person_info extends Fragment{
         protrait.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(view.getContext(),"点击更换头像",Toast.LENGTH_SHORT).show();
+                Toast.makeText(view.getContext(),"good",Toast.LENGTH_SHORT).show();
+
             }
         });
 
@@ -65,4 +70,17 @@ public class Fragment_Person_info extends Fragment{
         return  view;
 
     }
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+
+    }
+
+
 }
