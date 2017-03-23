@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerData">
+        <item>父亲</item>
+        <item>母亲</item>
+        <item>儿子</item>
+        <item>女儿</item>
+    </string-array>
+</resources>

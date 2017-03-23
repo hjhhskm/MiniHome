@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frag_bubble_insert"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackground"
+    >
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/title_top"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="48dp"-->
+        <!--android:background="@color/head_background"-->
+        <!--&gt;-->
+        <!--<TextView-->
+            <!--android:id="@+id/bubble_insert_reutrn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:textColor="@color/transparent"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textSize="18sp"-->
+            <!--android:text="返回"-->
+            <!--/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textColor="@color/transparent"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:textSize="18sp"-->
+            <!--android:text="新建关系圈"-->
+            <!--/>-->
+    <!--</RelativeLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#fff"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/bubble_insert_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="我是："
+            />
+
+        <EditText
+            android:id="@+id/bubble_insert_myinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:maxLines="1"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal"
+            android:background="@drawable/table_edit_bg"
+            android:hint="李涛"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/family_insert_newInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:background="@color/transparent"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_vertical"
+            android:text="邀请："
+            />
+        <EditText
+            android:id="@+id/bubble_insert_phoneNum1"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/table_edit_bg"
+            android:hint="13888888888"
+            />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/bubble_insert_phoneNum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape"
+        android:textColor="@color/colorAccent"
+        android:text="选择通讯录"
+        />
+
+    <Button
+        android:id="@+id/bubble_insert_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/shape"
+        android:textColor="@color/colorAccent"
+        android:text="发送邀请"
+        />
+
+
+</LinearLayout>

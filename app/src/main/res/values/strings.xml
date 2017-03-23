@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">MiniHome</string>
     <string name="information">微家</string>
+    <string name="menu_group">关系</string>
+    <string name="menu_bubble">消息</string>
+    <string name="menu_horse">动态</string>
+    <string name="menu_person">我的</string>
+
 </resources>

@@ -4,7 +4,10 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.media.Image;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -86,7 +89,8 @@ public class Main_login extends Activity{
 //                groupText.setTextColor(getResources().R.color.colorAccent);
                 if (group == null) {
                     group = new Fragment_Group();
-                    transaction.add(R.id.login_content, group);
+                    transaction.replace(R.id.login_content, group);
+                    transaction.commit();
                 } else {
                     transaction.show(group);
                 }
@@ -96,7 +100,8 @@ public class Main_login extends Activity{
 //                personText.setTextColor(getResources().getColor(R.color.colorAccent));
                 if (person == null) {
                     person = new Fragment_Person();
-                    transaction.add(R.id.login_content, person);
+                    transaction.replace(R.id.login_content, person);
+                    transaction.commit();
                 } else {
                     transaction.show(person);
                 }
@@ -124,4 +129,6 @@ public class Main_login extends Activity{
             transaction.hide(person);
         }
     }
+
+
 }

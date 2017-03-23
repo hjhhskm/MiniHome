@@ -5,7 +5,6 @@ import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -24,17 +23,22 @@ public class Fragment_Person extends Fragment{
     private TextView info,phone,setting;
 
     private FragmentManager manager;
+    private FragmentTransaction fragmentTransaction;
+    private Activity_Person_info infoP;
+    private Activity_Person_Phone phoneP;
 
     @Override
-    public View onCreateView(LayoutInflater inflater, final ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(final LayoutInflater inflater, final ViewGroup container, Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_person,container,false);
         manager = getFragmentManager();
+        fragmentTransaction = manager.beginTransaction();
         final FragmentTransaction fragmentTransaction = manager.beginTransaction();
 
         head = (ImageView)view.findViewById(R.id.person_myinfo_head);
         head.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+//                add change photo
                 Toast.makeText(view.getContext(),"我的头像",Toast.LENGTH_SHORT).show();
             }
         });
@@ -43,11 +47,8 @@ public class Fragment_Person extends Fragment{
         info.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Fragment_Person_info infoP = new Fragment_Person_info();
-                fragmentTransaction.replace(R.id.fragment_container,infoP);
-                fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
-                fragmentTransaction.addToBackStack(null);
-                fragmentTransaction.commit();
+                Intent intent = new Intent(getActivity(),Activity_Bubble_insert_info.class);
+                startActivity(intent);
             }
         });
 
@@ -55,11 +56,8 @@ public class Fragment_Person extends Fragment{
         phone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Fragmeng_Person_Phone phoneP = new Fragmeng_Person_Phone();
-                fragmentTransaction.replace(R.id.fragment_container,phoneP);
-                fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
-                fragmentTransaction.addToBackStack(null);
-                fragmentTransaction.commit();
+                Intent intent = new Intent(getActivity(),Activity_Person_Phone.class);
+                startActivity(intent);
             }
         });
 
@@ -67,4 +65,8 @@ public class Fragment_Person extends Fragment{
         return view;
     }
 
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+    }
 }

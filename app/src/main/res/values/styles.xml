@@ -11,4 +11,10 @@
     <style name="AppTheme.NoBar">
         <item name="windowNoTitle">true</item>
     </style>
+    <string-array name="familyarr">
+        <item>爸爸</item>
+        <item>妈妈</item>
+        <item>儿子</item>
+        <item>女儿</item>
+    </string-array>
 </resources>
